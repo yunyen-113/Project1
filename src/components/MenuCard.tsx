@@ -30,7 +30,7 @@ export default function MenuCard({ item, onOpen }: MenuCardProps) {
       <div className="shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-orange-50 flex items-center justify-center">
         {item.image ? (
           <img
-            src={`./images/${item.image}`}
+            src={`${import.meta.env.BASE_URL}images/${item.image}`}
             alt={item.name[l]}
             loading="lazy"
             className="w-full h-full object-cover"
