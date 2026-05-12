@@ -66,7 +66,7 @@ export default function ItemDetailModal({ item, onClose }: ItemDetailModalProps)
         <div className="w-full aspect-[4/3] bg-orange-50 flex items-center justify-center overflow-hidden rounded-t-2xl touch-pinch-zoom">
           {item.image ? (
             <img
-              src={`./images/${item.image}`}
+              src={`${import.meta.env.BASE_URL}images/${item.image}`}
               alt={item.name[l]}
               loading="lazy"
               className="w-full h-full object-cover"
