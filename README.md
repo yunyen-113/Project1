@@ -27,7 +27,7 @@ npm run preview  # 本地預覽 build 結果
 
 1. Push 至 `main` 分支，GitHub Actions 自動執行 build + deploy
 2. 首次部署前：Repository → **Settings** → **Pages** → **Source** 選 **GitHub Actions**
-3. 部署後網址：`https://<username>.github.io/<repo-name>/`
+3. 部署後網址：https://yunyen-113.github.io/Project1/
 
 ## 新增標記
 
