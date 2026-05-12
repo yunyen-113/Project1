@@ -10,7 +10,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 150,
     tags: ['veg'],
     emoji: '🥢',
-    image: null,
+    image: undefined,
   },
   {
     id: 'satay',
@@ -20,7 +20,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 180,
     tags: ['meat'],
     emoji: '🍢',
-    image: null,
+    image: undefined,
   },
   {
     id: 'fish-cake',
@@ -30,7 +30,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 160,
     tags: [],
     emoji: '🐟',
-    image: null,
+    image: undefined,
   },
   {
     id: 'mango-salad',
@@ -40,7 +40,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 160,
     tags: ['veg', 'spicy1'],
     emoji: '🥗',
-    image: null,
+    image: undefined,
   },
 
   // ── 湯品 Soups ─────────────────────────────────────────────────
@@ -56,7 +56,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: ['spicy2'],
     emoji: '🍲',
-    image: null,
+    image: undefined,
   },
   {
     id: 'tom-kha',
@@ -66,7 +66,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 220,
     tags: ['meat'],
     emoji: '🥥',
-    image: null,
+    image: undefined,
   },
 
   // ── 咖哩 Curries ───────────────────────────────────────────────
@@ -82,7 +82,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: ['spicy2', 'gluten-free'],
     emoji: '🍛',
-    image: null,
+    image: undefined,
   },
   {
     id: 'red-curry',
@@ -96,7 +96,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: ['spicy1'],
     emoji: '🍛',
-    image: null,
+    image: undefined,
   },
   {
     id: 'massaman-curry',
@@ -106,7 +106,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 280,
     tags: ['meat'],
     emoji: '🥜',
-    image: null,
+    image: undefined,
   },
   {
     id: 'panang-curry',
@@ -116,7 +116,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 280,
     tags: ['meat', 'spicy1'],
     emoji: '🍛',
-    image: null,
+    image: undefined,
   },
 
   // ── 主食 Mains ─────────────────────────────────────────────────
@@ -132,7 +132,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: [],
     emoji: '🍜',
-    image: null,
+    image: undefined,
   },
   {
     id: 'basil-stir-fry',
@@ -142,7 +142,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 230,
     tags: ['meat', 'spicy2'],
     emoji: '🍳',
-    image: null,
+    image: undefined,
   },
   {
     id: 'pineapple-rice',
@@ -152,7 +152,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 240,
     tags: ['veg'],
     emoji: '🍍',
-    image: null,
+    image: undefined,
   },
   {
     id: 'pad-see-ew',
@@ -165,7 +165,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: ['meat'],
     emoji: '🍝',
-    image: null,
+    image: undefined,
   },
 
   // ── 飲品 Drinks ────────────────────────────────────────────────
@@ -180,7 +180,7 @@ export const menuRaw: RawMenuItem[] = [
     ],
     tags: ['veg'],
     emoji: '🧋',
-    image: null,
+    image: undefined,
   },
   {
     id: 'lychee-juice',
@@ -190,7 +190,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 100,
     tags: ['veg'],
     emoji: '🍹',
-    image: null,
+    image: undefined,
   },
   {
     id: 'coconut-water',
@@ -200,7 +200,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 90,
     tags: ['veg', 'gluten-free'],
     emoji: '🥥',
-    image: null,
+    image: undefined,
   },
 
   // ── 甜點 Desserts ──────────────────────────────────────────────
@@ -212,7 +212,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 160,
     tags: ['veg', 'v5'],
     emoji: '🥭',
-    image: null,
+    image: undefined,
   },
   {
     id: 'coconut-ice-cream',
@@ -222,7 +222,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 120,
     tags: ['veg'],
     emoji: '🍨',
-    image: null,
+    image: undefined,
   },
   {
     id: 'tub-tim-grob',
@@ -232,7 +232,7 @@ export const menuRaw: RawMenuItem[] = [
     price: 130,
     tags: ['veg', 'v5'],
     emoji: '🍡',
-    image: null,
+    image: undefined,
   },
 ]
 
